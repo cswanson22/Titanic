@@ -1,0 +1,6 @@
+Name: Cameron Swanson
+
+In our first attempt at the Titanic project, we attempted to use a k-nearest neighbors classifier, predicting on our test set using the variables "Pclass", "Fare", "Sex", and "Family Aboard" (a feature created by taking the sum of the variables "Siblings/Spouses Aboard" and "Parents/Children Aboard").  Additionally, we used one-hot encoding to ensure "Sex" was treated by our model as a nominal variable. 
+
+When implementing this model, we ran it using a range of values for k (1-80).  We found our model to perform the best when k = 6, giving us a validation accuracy of 83.15%.
+  
